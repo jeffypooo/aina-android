@@ -1,1 +1,1 @@
-include ':app', ':ptt'
+include ':app', ':aina-ptt'
