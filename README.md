@@ -4,7 +4,7 @@ Use Aina's [PTT Voice Responder](https://www.aina-wireless.com/shop/aina-ptt-voi
 
 # User Guide
 
-### Installation
+## Installation
 
 Add the library to your `build.gradle`:
 
@@ -18,7 +18,7 @@ dependencies {
 }
 ```
 
-### Permissions
+## Permissions
 
 Bluetooth permission is required:
 
@@ -26,7 +26,7 @@ Bluetooth permission is required:
 <uses-permission android:name="android.permission.BLUETOOTH" />
 ```
 
-### Monitoring the connection state
+## Monitoring the connection state
 
 ```kotlin
 import io.reactivex.Observable
@@ -48,7 +48,7 @@ fun monitorAinaConnection() {
 
 You can also use `AinaAccessoryManager.connected` to quickly check if the accessory is connected.
 
-### Consuming button presses
+## Consuming button presses
 
 ```kotlin
 import io.reactivex.Observable
