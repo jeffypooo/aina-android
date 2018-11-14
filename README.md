@@ -1,9 +1,8 @@
 # aina-android
 
-Use Aina's PTT Voice Responder in your Android app.
+Use Aina's [PTT Voice Responder](https://www.aina-wireless.com/shop/aina-ptt-voice-responder/) in your Android app.
 
-
-## User Guide
+# User Guide
 
 ### Installation
 
