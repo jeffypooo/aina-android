@@ -5,6 +5,8 @@ Use Aina's PTT Voice Responder in your Android app.
 
 ## User Guide
 
+### Installation
+
 Add the library to your `build.gradle`:
 
 ```gradle
@@ -15,6 +17,14 @@ repositories {
 dependencies {
   implementation 'com.masterjefferson:aina-ptt:0.0.2'
 }
+```
+
+### Permissions
+
+Bluetooth permission is required:
+
+```xml
+<uses-permission android:name="android.permission.BLUETOOTH" />
 ```
 
 ### Monitoring the connection state
