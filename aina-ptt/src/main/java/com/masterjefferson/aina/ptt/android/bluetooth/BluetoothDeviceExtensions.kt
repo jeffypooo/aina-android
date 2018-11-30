@@ -11,7 +11,7 @@ private val UUID_GENERIC_SPP = UUID.fromString("00001101-0000-1000-8000-00805F9B
 
 internal val BluetoothDevice.isAinaPttVoiceResponder: Boolean
   @SuppressLint("MissingPermission")
-  get() = name.contains("APTT")
+  get() = name?.contains("APTT") ?: false
 
 @SuppressLint("MissingPermission")
 internal fun BluetoothDevice.connectSppSocket(retryCount: Int = 3): BluetoothSocket {
